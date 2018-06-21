@@ -12,7 +12,7 @@ public class KnowThySelfMain {
 		SimpleDateFormat fmt = new SimpleDateFormat("dd/MM");
 
 		
-		// Zodiac qualities
+		// Zodiac qualities declarations
 		Qualities ariesQual = new Qualities(
 				"Courageous, determined, confident, passionate",
 				"Impatient, moody, short-tempered, impulsive, aggressive");
