@@ -1,6 +1,6 @@
 package knowthyself3;
 
-public class Zodiac {
+public class ZodiacSign {
 	private String signName;
 	private Qualities qualities;
 	private Element element;
@@ -10,7 +10,7 @@ public class Zodiac {
 	private String dateIntervals;
 	private String Mode;
 
-	public Zodiac(String signName, Qualities signQualities, Element element, 
+	public ZodiacSign(String signName, Qualities signQualities, Element element, 
 			String symbol, String motto, String planetRuler, String dob,
 			String Mode) {
 		super();

@@ -12,7 +12,7 @@ public class KnowThySelfMain {
 		SimpleDateFormat fmt = new SimpleDateFormat("dd/MM");
 
 		
-		// Zodiac qualities declarations
+		// ZodiacSign qualities declarations
 		Qualities ariesQual = new Qualities(
 				"Courageous, determined, confident, passionate",
 				"Impatient, moody, short-tempered, impulsive, aggressive");
@@ -63,31 +63,31 @@ public class KnowThySelfMain {
 				"Earth",
 				"You like to keep it real, you're loyal and stable, and stick by their people through hard times");
 
-		Zodiac aries = new Zodiac("Aries", ariesQual, fireElement, "Ram",
+		ZodiacSign aries = new ZodiacSign("Aries", ariesQual, fireElement, "Ram",
 				"I am", "Mars", "Mar 20 - Apr 18", "");
-		Zodiac taurus = new Zodiac("Taurus", taurusQual, earthElement, "Bull",
+		ZodiacSign taurus = new ZodiacSign("Taurus", taurusQual, earthElement, "Bull",
 				"I have", "Venus", "Apr 19 - May 20", "");
-		Zodiac gemini = new Zodiac("Gemini", geminiQual, airElement, "Twin",
+		ZodiacSign gemini = new ZodiacSign("Gemini", geminiQual, airElement, "Twin",
 				"I think", "Mecury", "May 21 - Jun 20", "Mutable");
-		Zodiac cancer = new Zodiac("Cancer", cancerQual, waterElement, "Crab",
+		ZodiacSign cancer = new ZodiacSign("Cancer", cancerQual, waterElement, "Crab",
 				"I feel", "Jun 21 - Jul 22", "Moon", "");
-		Zodiac leo = new Zodiac("Leo", leoQual, fireElement, "Lion", "I will",
+		ZodiacSign leo = new ZodiacSign("Leo", leoQual, fireElement, "Lion", "I will",
 				"Sun", "Jul 23 - Aug 22", "");
-		Zodiac virgo = new Zodiac("Virgo", virgoQual, earthElement, "Virgin",
+		ZodiacSign virgo = new ZodiacSign("Virgo", virgoQual, earthElement, "Virgin",
 				"I analyse", "Mercury", "Aug 23 - Sep 22", "");
-		Zodiac libra = new Zodiac("Libra", libraQual, airElement, "Scales",
+		ZodiacSign libra = new ZodiacSign("Libra", libraQual, airElement, "Scales",
 				"I balance", "Venus", "Sep 23 - Oct 22", "");
-		Zodiac scorpio = new Zodiac("Scorpio", scorpioQual, waterElement,
+		ZodiacSign scorpio = new ZodiacSign("Scorpio", scorpioQual, waterElement,
 				"Scorpion", "I lust", "Pluto ex Mars", "Oct 23 - Nov 21", "");
-		Zodiac sagittarius = new Zodiac("Sagittarius", sagittariusQual,
+		ZodiacSign sagittarius = new ZodiacSign("Sagittarius", sagittariusQual,
 				fireElement, "Archer", "I see", "Jupiter", "Nov 22 - Dec 21",
 				"");
-		Zodiac capricorn = new Zodiac("Scorpio", capricornQual, earthElement,
+		ZodiacSign capricorn = new ZodiacSign("Scorpio", capricornQual, earthElement,
 				"Goat", "I use", "Saturn", "Dec 22 - Jan 19 ", "");
-		Zodiac aquarius = new Zodiac("Aries", aquariusQual, airElement,
+		ZodiacSign aquarius = new ZodiacSign("Aries", aquariusQual, airElement,
 				"Water Carrier", "I know", "Uranus ex Saturn",
 				"Jan 20 - Feb 18", "");
-		Zodiac pisces = new Zodiac("Aries", piscesQual, waterElement, "Fishes",
+		ZodiacSign pisces = new ZodiacSign("Aries", piscesQual, waterElement, "Fishes",
 				"I believe", "Neptune ex jupiter", "Feb 19 - Mar 19", "");
 
 		System.out

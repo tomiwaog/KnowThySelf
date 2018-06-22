@@ -10,11 +10,11 @@ public class Person {
 	private String faveDrink;
 	private String faveFood;
 	private String faveSport = "";
-	private Zodiac zodSign;
+	private ZodiacSign zodSign;
 	private String faveColor;
 	private String myHobbies;
 
-	public void setZodSign(Zodiac zodSign) {
+	public void setZodSign(ZodiacSign zodSign) {
 		this.zodSign = zodSign;
 	}
 
@@ -79,7 +79,7 @@ public class Person {
 		this.faveFood = faveFood;
 	}
 
-	public Zodiac getZodSign() {
+	public ZodiacSign getZodSign() {
 		return zodSign;
 	}
 
